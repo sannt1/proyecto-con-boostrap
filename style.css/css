@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+/* FUENTES
+Para titulos: Tiro Devanagari Sanskrit
+Para texto normal: Tiro Banlga
+*/
+html {
+    font-size: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(../img/fondoprincipal.png);
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.conteiner{
+    border: none;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.conteiner1{
+    border: none;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;  
+}
+
+.text-derecha{
+    text-align: right;
+}
+
+.imagen-principal{
+    width: 100%;
+}
+
+.esquinas-redondas{
+    border-radius: 150px;
+}
+
+.imagen-logos{
+    width: 150px; 
+    height: 75%;
+}
+
+.texto-gris{
+    color: rgba(30, 4, 177, 0.932)
+}
+
+.letra-chica{ 
+    font-size: 12px;
+}
+
+.textoDestacado{
+	background-color: rgba(255, 252, 0, .4);
+    justify-content: center;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7A7A7A;
+}
+
+.box__copyright hr{
+    height: 1px;
+    color: #7A7A7A;
+}
+
+.brand_img {
+    width: 150px;
+}
+
+.icono_redes{ 
+    width: 50px;
+}
